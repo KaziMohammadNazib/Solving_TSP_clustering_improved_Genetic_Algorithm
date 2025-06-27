@@ -1,7 +1,7 @@
 clear all; clc; tic;
 
 % %Input Data,distance matrix and fitness matrix
-data=load('G:\MSc\Thesis\data\new1\EUD2D\wi29.tsp');
+data=load('');
 d=[data(:,2) data(:,3)];
 [data_n,in_n] = size(d);
 [DM,FM]=DistM(d);
